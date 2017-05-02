@@ -10,6 +10,12 @@ This Minimax module implements the [Negamax](https://en.wikipedia.org/wiki/Negam
 
 Copy the content of [`sources/`](./sources) folder into your project.
 
+Import the Minimax module in order to use it in your application :
+
+```javascript
+import Minimax from './my-path/minimax.js';
+```
+
 ## Usage
 
 To use this Minimax module, you'll need to instanciate it with your presets ([`heuristic`](#constructor) and [`childhood`](#constructor) functions). Then, each time you'll need to get the best move node to play, you'll have to call the right decision rule ([`maximize`](#maximize) or [`minimize`](#minimize)) to apply to current move node.
