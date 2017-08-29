@@ -1,3 +1,7 @@
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+[![Build Status](https://travis-ci.org/deformhead/Theatre.minimax.svg?branch=master)](https://travis-ci.org/deformhead/Theatre.minimax)
+[![Coverage Status](https://coveralls.io/repos/github/deformhead/Theatre.minimax/badge.svg?branch=master)](https://coveralls.io/github/deformhead/Theatre.minimax?branch=master)
+
 # Theatre.minimax
 
 > *[Minimax](https://en.wikipedia.org/wiki/Minimax) is a decision rule used in decision theory, game theory, statistics and philosophy for minimizing the possible loss for a worst case (maximum loss) scenario.*
