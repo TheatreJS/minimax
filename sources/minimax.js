@@ -32,6 +32,7 @@ export default function Minimax(heuristic, childhood) {
         let bestScore = Number.NEGATIVE_INFINITY;
         let bestLeaf = null;
         let bestMove = null;
+        
 
         // iterate through child moves
         for (let iterator = 0, length = moves.length; iterator < length; iterator++) {
