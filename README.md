@@ -99,7 +99,7 @@ The `childhood` function purpose is to retrieve the next move nodes from a move 
 | property  | name    | type     | description            |
 | --------- | ------- | -------- | ---------------------- |
 | parameter | `move`  | `object` | move node              |
-| return    | `moves` | `array`  | array of move nodes |
+| return    | `moves` | `array`  | array of move nodes    |
 
 ---
 
@@ -120,6 +120,7 @@ const maximize = minimax.maximize(start, depth);
 | --------- | ------- | -------- | ----------------------------------------------- |
 | parameter | `start` | `object` | move node                                       |
 | parameter | `depth` | `number` | max depth to reach browsing the move nodes tree |
+| return    | `move`  | `object` | best next move node to play                     |
 
 ---
 
@@ -140,6 +141,7 @@ const minimize = minimax.minimize(start, depth);
 | --------- | ------- | -------- | ----------------------------------------------- |
 | parameter | `start` | `object` | move node                                       |
 | parameter | `depth` | `number` | max depth to reach browsing the move nodes tree |
+| return    | `move`  | `object` | worst next move node to play                    |
 
 ## [Change Log](./CHANGELOG.md)
 
