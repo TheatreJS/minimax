@@ -1,4 +1,4 @@
-export default function Minimax(heuristic, childhood) {
+export function Minimax(heuristic, childhood) {
 
     function maximize(start, depth) {
 
