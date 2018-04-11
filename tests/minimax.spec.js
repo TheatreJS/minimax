@@ -1,4 +1,4 @@
-import Minimax from '../sources/minimax.js';
+import {Minimax} from '../sources/minimax.js';
 
 import chai from 'chai';
 

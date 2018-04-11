@@ -17,7 +17,7 @@ Copy the content of [`sources/`](./sources) folder into your project.
 Import the Minimax module in order to use it in your application :
 
 ```javascript
-import Minimax from './my-path/minimax.js';
+import {Minimax} from './my-path/minimax.js';
 ```
 
 ## Usage
