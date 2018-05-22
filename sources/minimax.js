@@ -1,4 +1,4 @@
-export function Minimax(heuristic, childhood) {
+function Minimax(heuristic, childhood) {
 
     function maximize(start, depth) {
 
@@ -63,4 +63,9 @@ export function Minimax(heuristic, childhood) {
 
     this.maximize = maximize;
     this.minimize = minimize;
+}
+
+export {
+
+    Minimax
 };
