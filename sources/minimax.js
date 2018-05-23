@@ -65,7 +65,5 @@ function Minimax(heuristic, childhood) {
     this.minimize = minimize;
 }
 
-export {
-
-    Minimax
-};
+// exports current module as an object
+export {Minimax};
